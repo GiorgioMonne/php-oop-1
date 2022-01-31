@@ -29,6 +29,8 @@ $movies = [
 
     <?php foreach($movies as $movie){?>
         <div>
+            <h3><?php echo $movie->getInfoFilm(); ?></h3>
+            <hs>info</h1>
             <h2><?php echo $movie->nome ?></h2>
             <h2><?php echo $movie->autore ?></h2>
             <h2><?php echo $movie->anno ?></h2>
